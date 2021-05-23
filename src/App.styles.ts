@@ -18,7 +18,7 @@ body{
   box-sizing: border-box;
   font-family:'Catamaran', sans-serif;
 }
-`
+`;
 export const Wrapper = styled.div`
 display:flex;
 flex-direction: column;
@@ -34,8 +34,8 @@ align-items:center;
 }
 
 h1{
-  font-family: Fascinate Inline, Haettenschweiler, 'Arial Narrow Bold',sans-serif;
-  background-image: linear-gradient(180deg,#fff,87f1ff);
+  font-family: Fascinate Inline, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-image: linear-gradient(180deg, #fff, #87f1ff);
   background-size: 100%;
   background-clip:text;
   - -webkit-background-clip: text;
@@ -47,8 +47,6 @@ h1{
   font-weight:400;
   text-align:center;
   margin: 20px;
-
-
 }
 .start,.next{
   cursor:pointer;
